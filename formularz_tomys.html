@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+<head>
+<meta charset="utf-8">
+<title> formularz tomys </title>
+</head>
+<body bgcolor="#F5F5DC">
+<center><h1> Formularz</h1></center>
+<form enctype="text/plain" action="mailto:tomys.leon@gmail.com" subject="formularz" method="Post">
+ <TABLE>
+<TR height="500">
+ <TD width="900"> 
+ <b>Podaj płeć</b><br>
+ <input type="radio" name="Kobieta" value="Kobieta"> Kobieta
+<br><br>
+<input type="radio" name="Mężczyzna" value="Mężczyzna"> Mężczyzna
+<br><br>
+ <b>Imię i nazwisko</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="imie i nazwisko" size="22"> 
+ <br><br>
+ <b>Adres e-mail</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="adres e-mail" size="22"> 
+ <br><br>  
+ <b>Zaznacz swój przedział wiekowy</b><br>
+ <select>
+ <option value="0-18">0-18</option>
+ <option value="19-49">19-49</option>
+ <option value="50 lub wyżej">50 lub wyżej</option>
+ </select>
+ </TD>
+ <TD width="900"> 
+<b>Czy mieszkasz w trójmieście?</b></font><br>
+
+ <input type="radio" name="Czy mieszkasz w trójmieście" value="T"> Tak
+<br><br>
+<input type="radio" name="Czy mieszkasz w trójmieście" value="N"> Nie
+<br><br>
+
+<b> Jakiego użądzenia używasz do komunikacji z innymi? </b>
+<br><br>
+<textarea cols="40" rows="5"></textarea>
+<br><br>
+<b> Jak dojeżdżasz do szkoły/pracy?</b>
+<br><br>
+<input type="checkbox" name="Samochodem" value="S"> Samochodem
+<br><br>
+<input type="checkbox" name="Komunikacją" value="KM"> Komunikacją miejską
+<br><br>
+<input type="checkbox" name="Innym" value="I"> Innym środkiem transportu
+ </TD> 
+ <TD width="900">
+<b> Jaki jest twój ulubiony muzyk/zespół muzyczny </b>
+<br><br>
+<textarea cols="60" rows="6"></textarea>
+<br><br>
+<b> Co wolisz używać? </b>
+<br><br>
+<input type="checkbox" name="laptop" value="L"> Laptop
+<br><br>
+<input type="checkbox" name="Komputer stacjonarny" value="KS"> Komputer stacjonarny
+<br><br>
+<b> Czy masz znajomego/rodzinę którzy mieszkają w innym kraju? </b>
+<br><br>
+<input type="checkbox" name="Tak" value="TAK"> Tak
+<br><br>
+<input type="checkbox" name="Nie" value="NIE"> Nie
+<br><br>
+<b> Zaznacz w których z tych popularnych sieci restauracji jadłeś/jadłaś
+<br><br>
+<input type="checkbox" name="Mc Donald's" value="Mc Donald's"> Mc Donald's
+<br><br>
+<input type="checkbox" name="KFC" value="KFC"> KFC
+<br><br>
+<input type="checkbox" name="Burger King" value="Burger King"> Burger King
+<br><br>
+ </TD>
+ </TR>
+<TR height="100">
+ <TD><button onclick="alert('Narazie nie można udostempnić formularza')" style="height:80px;width:250px">Share</button></TD> 
+ <TD><nobr><input type="reset" value="Reset" style="height:80px; width:250px"> 
+</TD> 
+ <TD> <input type="submit" name="send" style="height:80px; width:250px"> </TD>
+ </TR>
+ </TABLE>
+</form>
+
+<A HREF="index.html"> wróć </A>
+</body>
+</html>
